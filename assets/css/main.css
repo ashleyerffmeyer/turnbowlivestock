@@ -168,7 +168,7 @@ p{
 	}
 
 		a:hover {
-			border-bottom-color: rgba(0, 0, 0, 0);
+			border-bottom-color: rgba(207, 21, 21);
 		}
 
 	.dark a {
@@ -1641,6 +1641,14 @@ p{
 				background: rgba(0, 0, 0, 0.025);
 			}
 
+			ul.icons li a:hover {
+				color: rgba(207, 21, 21);
+			}
+
+			a.icon.fa-file-pdf:hover {
+				color: black;
+			}
+
 /* Menu */
 
 	ul.menu {
@@ -1801,6 +1809,8 @@ p{
 						}
 
 		}
+
+		
 
 /* Form */
 
@@ -2171,6 +2181,9 @@ p{
 
 		.icon:before {
 			line-height: inhreit;
+		}
+		.fa-file-pdf{
+			font-size: 4em;
 		}
 
 		.icon > .label {
